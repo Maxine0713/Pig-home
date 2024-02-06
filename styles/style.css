@@ -1,0 +1,37 @@
+html {
+  font-size: 30px;
+  /* px means 'pixels': the base font size is now 10 pixels high  */
+  font-family: 'Single Day', cursive;
+  background-color: #c9daeb;
+
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #ff9500;
+  padding: 0  20px 10px 20px;
+  border: 5px solid black;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin: 0;/*  去除默認樣式的間距 */
+  padding: 20px 0;
+  color: #00539f;
+  text-shadow: 6px 3px 1px black;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+  font-family: 'Workbench', sans-serif;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
